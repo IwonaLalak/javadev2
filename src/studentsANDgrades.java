@@ -49,6 +49,6 @@ public class studentsANDgrades
     @Override
     public String toString()
     {
-        return "ID: "+id+" | name: "+name+" | surname: "+surname+" | grades: "+grades+" | \n";
+        return "ID: "+id+" | name: "+name+" | surname: "+surname+" | grades: "+grades+" \n";
     }
 }
