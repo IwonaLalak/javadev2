@@ -31,7 +31,7 @@ public class glowna {
     @ResponseBody
     public Object[] wszyscyUczniowie()
     {
-        logger.info("pokaz wszystkich uczniow");
+        logger.info("pokaz wszystkich  uczniow");
         return lista.toArray();
     }
 
