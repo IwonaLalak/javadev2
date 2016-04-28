@@ -63,7 +63,7 @@ public class MainClass
         list.remove(id);
     }
 
-    //setting grade to particular student
+    //setting grade to particular studentt
     @RequestMapping(value = "/set/{id}&{grade}", method = RequestMethod.PUT)
     @ResponseBody
     public boolean setGradeToStudent(@PathVariable int id, @PathVariable int grade)
