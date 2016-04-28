@@ -53,7 +53,7 @@ public class uczniowie {
                 numer + " | " +
                 imie + " " +
                 nazwisko + " | " +
-                oceny + "] /n";
+                oceny + "]  /n";
 
     }
 }
